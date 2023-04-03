@@ -1,0 +1,35 @@
+.header {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    &__inner {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.menu {
+
+    &__list {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+    }
+
+    // &__list-item {}
+
+    &__list-link {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 124.79%;
+        color: #000000;
+        font-family: sans-serif;
+        transition: all .3s ease 0s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.preview {
+    max-width: 750px;
+    margin: 0 auto;
+    background-image: url('../img/preview/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 130px;
+        row-gap: 40px;
+        padding: 100px 0;
+    }
+
+    &__item {
+        border-radius: 40px;
+        overflow: hidden;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: all .3s ease 0s;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    &__item-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        line-height: 124.79%;
+
+    }
+    &__item-text--white{
+        color: #FFFFFF;
+    }
+}

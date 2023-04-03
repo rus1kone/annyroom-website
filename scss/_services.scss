@@ -1,0 +1,78 @@
+.services {
+    
+
+    &__inner{
+        background-image: url('../img/services/bg.png');
+        background-position: center;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 48px;
+        line-height: 124.79%;
+        margin-bottom: 40px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        column-gap: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    &__item {
+        border-radius: 40px;
+        overflow: hidden;
+        position: relative;
+        transition: all .3s ease 0s;
+        cursor: pointer;
+        &:hover{
+            transform: scale(1.1);
+            transform: translateY(-15px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+    &__item-text {
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, );
+        position: absolute;
+        font-size: 36px;
+        line-height: 124.79%;
+        color: #FFFFFF;
+    }
+
+    &__descr {
+        text-align: center;
+    }
+
+    &__descr-title {
+        font-size: 36px;
+        line-height: 124.79%;
+    }
+
+    &__descr-text {
+        font-size: 26px;
+        line-height: 124.79%;
+        color: #000000;
+    }
+}
+
+.services--contact{
+    padding-top: 80px;
+}
+
+.services__items--contacts{
+    padding-top: 150px;
+}
+
+.services__descr--contacts{
+    padding-bottom: 150px;
+}
+
+.services__title--contacts{
+    margin-bottom: 0;
+}

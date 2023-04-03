@@ -1,0 +1,32 @@
+.contacts {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 100px 0;
+}
+
+.form {
+    padding: 140px 0;
+    text-align: center;
+
+    &__title {
+        font-size: 40px;
+        line-height: 124.79%;
+        color: #000000;
+    }
+
+    &__subtitle {
+        font-size: 24px;
+        line-height: 124.79%;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+
+
+    &__input {
+        width: 411px;
+        margin-bottom: 30px;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #000;
+    }
+}

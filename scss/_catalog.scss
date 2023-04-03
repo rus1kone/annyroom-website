@@ -1,0 +1,21 @@
+.catalog {
+    margin-top: 140px;
+    background-color: rgba(120, 114, 114, 0.5);
+    position: relative;
+
+    &__title {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 124.79%;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        position: absolute;
+        top: 5px;
+        left: 25px;
+    }
+
+    &__inner {
+        max-width: 1220px;
+        margin: 0 auto;
+    }
+}
