@@ -1,0 +1,1 @@
+"use strict";var swiper=new Swiper(".swiper",{loop:!0,effect:"fade",fadeEffect:{crossFade:!0},autoplay:{delay:1500}});
